@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "452743095879",
+    "project_id": "exampleloginapp-e1d71",
+    "storage_bucket": "exampleloginapp-e1d71.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452743095879:android:4a4f654008b4f18e577362",
+        "android_client_info": {
+          "package_name": "com.examplequotefetchapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALrd8UAWIxwYaGPw2d3ATuvDFAcE4ELrw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "ExampleLoginApp",
+  "displayName": "Example APP",
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "e44d72a0-36d9-458a-82f3-5f3e4e6afef1"
+      }
+    },
+    "android": {
+      "googleServicesFile": "./android/app/google-services.json",
+      "package": "com.mycorp.myapp"
+    },
+    "ios": {
+      "googleServicesFile": "./ios/GoogleService-Info.plist",
+      "bundleIdentifier": "com.mycorp.myapp"
+    },
+    "plugins": [
+      "@react-native-firebase/app",
+      "@react-native-firebase/auth",
+      "@react-native-firebase/crashlytics",
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ]
+    ]
+  }
+}
